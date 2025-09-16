@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elite Tennis Club - Premium Tennis Experience</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-tennis-ball"></i>
+                <span>Elite Tennis Club</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#facilities">Facilities</a></li>
+                <li><a href="#programs">Programs</a></li>
+                <li><a href="#membership">Membership</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Welcome to Elite Tennis Club</h1>
+            <p>Experience world-class tennis facilities and professional coaching in the heart of the city</p>
+            <div class="hero-buttons">
+                <button class="btn btn-primary" onclick="scrollToSection('membership')">Join Now</button>
+                <button class="btn btn-secondary" onclick="scrollToSection('facilities')">View Facilities</button>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="tennis-court"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Elite Tennis Club</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Founded in 1985, Elite Tennis Club has been the premier destination for tennis enthusiasts of all skill levels. Our state-of-the-art facilities and world-class coaching staff provide an unparalleled tennis experience.</p>
+                    <div class="stats">
+                        <div class="stat">
+                            <h3>500+</h3>
+                            <p>Active Members</p>
+                        </div>
+                        <div class="stat">
+                            <h3>15</h3>
+                            <p>Professional Courts</p>
+                        </div>
+                        <div class="stat">
+                            <h3>38</h3>
+                            <p>Years Experience</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="image-placeholder">
+                        <i class="fas fa-trophy"></i>
+                        <p>Championship Courts</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Facilities Section -->
+    <section id="facilities" class="facilities">
+        <div class="container">
+            <h2>Our Facilities</h2>
+            <div class="facilities-grid">
+                <div class="facility-card">
+                    <div class="facility-icon">
+                        <i class="fas fa-tennis-ball"></i>
+                    </div>
+                    <h3>Indoor Courts</h3>
+                    <p>8 climate-controlled indoor courts available year-round with professional lighting</p>
+                </div>
+                <div class="facility-card">
+                    <div class="facility-icon">
+                        <i class="fas fa-sun"></i>
+                    </div>
+                    <h3>Outdoor Courts</h3>
+                    <p>7 outdoor courts with premium clay and hard court surfaces</p>
+                </div>
+                <div class="facility-card">
+                    <div class="facility-icon">
+                        <i class="fas fa-dumbbell"></i>
+                    </div>
+                    <h3>Fitness Center</h3>
+                    <p>Modern gym with tennis-specific training equipment and personal trainers</p>
+                </div>
+                <div class="facility-card">
+                    <div class="facility-icon">
+                        <i class="fas fa-utensils"></i>
+                    </div>
+                    <h3>Club Restaurant</h3>
+                    <p>Fine dining restaurant serving healthy meals and post-match refreshments</p>
+                </div>
+                <div class="facility-card">
+                    <div class="facility-icon">
+                        <i class="fas fa-swimming-pool"></i>
+                    </div>
+                    <h3>Swimming Pool</h3>
+                    <p>Olympic-sized pool for cross-training and relaxation</p>
+                </div>
+                <div class="facility-card">
+                    <div class="facility-icon">
+                        <i class="fas fa-car"></i>
+                    </div>
+                    <h3>Parking</h3>
+                    <p>Complimentary valet parking and secure member parking areas</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Programs Section -->
+    <section id="programs" class="programs">
+        <div class="container">
+            <h2>Training Programs</h2>
+            <div class="programs-grid">
+                <div class="program-card">
+                    <h3>Beginner Classes</h3>
+                    <p class="price">$80/month</p>
+                    <ul>
+                        <li>Basic stroke techniques</li>
+                        <li>Court positioning</li>
+                        <li>Rules and etiquette</li>
+                        <li>Group sessions (max 6)</li>
+                    </ul>
+                    <button class="btn btn-outline">Learn More</button>
+                </div>
+                <div class="program-card featured">
+                    <div class="featured-badge">Most Popular</div>
+                    <h3>Intermediate Training</h3>
+                    <p class="price">$120/month</p>
+                    <ul>
+                        <li>Advanced techniques</li>
+                        <li>Strategy and tactics</li>
+                        <li>Match play</li>
+                        <li>Video analysis</li>
+                    </ul>
+                    <button class="btn btn-primary">Join Now</button>
+                </div>
+                <div class="program-card">
+                    <h3>Elite Coaching</h3>
+                    <p class="price">$200/month</p>
+                    <ul>
+                        <li>One-on-one sessions</li>
+                        <li>Tournament preparation</li>
+                        <li>Mental conditioning</li>
+                        <li>Performance analysis</li>
+                    </ul>
+                    <button class="btn btn-outline">Learn More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Membership Section -->
+    <section id="membership" class="membership">
+        <div class="container">
+            <h2>Membership Plans</h2>
+            <div class="membership-grid">
+                <div class="membership-card">
+                    <h3>Basic</h3>
+                    <div class="price">$150<span>/month</span></div>
+                    <ul>
+                        <li>Court access (off-peak)</li>
+                        <li>Basic fitness center</li>
+                        <li>Group classes</li>
+                        <li>Locker room access</li>
+                    </ul>
+                    <button class="btn btn-outline">Choose Plan</button>
+                </div>
+                <div class="membership-card premium">
+                    <div class="premium-badge">Best Value</div>
+                    <h3>Premium</h3>
+                    <div class="price">$250<span>/month</span></div>
+                    <ul>
+                        <li>Full court access</li>
+                        <li>Complete fitness center</li>
+                        <li>All group classes</li>
+                        <li>Guest privileges</li>
+                        <li>Restaurant discounts</li>
+                    </ul>
+                    <button class="btn btn-primary">Choose Plan</button>
+                </div>
+                <div class="membership-card">
+                    <h3>Elite</h3>
+                    <div class="price">$400<span>/month</span></div>
+                    <ul>
+                        <li>Unlimited access</li>
+                        <li>Personal training</li>
+                        <li>Private lessons</li>
+                        <li>Tournament entry</li>
+                        <li>Concierge service</li>
+                    </ul>
+                    <button class="btn btn-outline">Choose Plan</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Address</h4>
+                            <p>123 Tennis Avenue<br>Sports District, City 12345</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>(555) 123-TENNIS</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>info@elitetennisclub.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h4>Hours</h4>
+                            <p>Mon-Fri: 6AM-10PM<br>Sat-Sun: 7AM-9PM</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="phone" name="phone" placeholder="Your Phone">
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-tennis-ball"></i>
+                        <span>Elite Tennis Club</span>
+                    </div>
+                    <p>Your premier destination for tennis excellence since 1985.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#facilities">Facilities</a></li>
+                        <li><a href="#programs">Programs</a></li>
+                        <li><a href="#membership">Membership</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#">Private Lessons</a></li>
+                        <li><a href="#">Group Classes</a></li>
+                        <li><a href="#">Court Rental</a></li>
+                        <li><a href="#">Tournaments</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Tennis Avenue</p>
+                    <p><i class="fas fa-phone"></i> (555) 123-TENNIS</p>
+                    <p><i class="fas fa-envelope"></i> info@elitetennisclub.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Elite Tennis Club. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
